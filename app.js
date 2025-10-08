@@ -6,7 +6,7 @@ let ingresoPass = prompt("Ingrese Contraseña:");
 let usuario = "admin";
 let pass = "1234";
 
-if ((usuario == ingresoUsuario) && (pass == ingresoPass)) {
+if ((usuario === ingresoUsuario) && (pass === ingresoPass)) {
     alert("Acceso Correcto");
 } else {
     alert("Acceso Denegado");
